@@ -1,4 +1,7 @@
-var target= document.querySelectorAll('.cwj9ozl2 g[mask] image');
+var target = document.querySelectorAll('g[mask] image');
+if (document.querySelectorAll('.cwj9ozl2').length) {
+	target = document.querySelectorAll('.cwj9ozl2 g[mask] image');
+}
 var total = target.length;
 var array = [];
 target.forEach(function(el){
